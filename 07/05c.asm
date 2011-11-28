@@ -10,7 +10,6 @@ syscall
 add $a2, $v0, $0 # int x;
 la $a0, arr # int &a[0];
 li $v0, 0 # int res=0;
-move $a0, $a0
 sll $t1, $a1, 2
 add $t1, $a0, $t1 # int &array[n];
 for:
