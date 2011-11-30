@@ -6,8 +6,8 @@ li $v0, 5
 syscall
 add $a1, $v0, $0 # int n;
 li $v0, 5
-add $a2, $v0, $0 # int x;
 syscall
+add $a2, $v0, $0 # int x;
 la $a0, arr # int &a[0];
 li $v0, 0 # int res=0;
 li $t0, 0 # int i=0;
